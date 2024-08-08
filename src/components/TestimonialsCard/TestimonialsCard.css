@@ -1,0 +1,36 @@
+.TestimonialsCardbox {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 2px 25px rgb(0 0 0 / 10%);
+  margin-bottom: 50px;
+}
+.TestimonialsCardbox img {
+  position: absolute;
+  right: -10px;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid var(--section-background);
+}
+.TestimonialsCardbox h3 {
+  margin: 0 0 10px;
+}
+.TestimonialsCardbox .title {
+  color: #777;
+  margin-bottom: 10px;
+  display: block;
+}
+.TestimonialsCardbox .rate .filled {
+  color: #ffc107;
+}
+.TestimonialsCardbox p {
+  line-height: 1.5;
+  color: #777;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
